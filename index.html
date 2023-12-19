@@ -1,59 +1,213 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- Head -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Lien page CSS -->
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Nom de page -->
     <title>Lamps Eléon</title>
+
+    <!-- icone -->
+    <link
+    rel="icon"
+    type="image/x-icon"
+    href="img/3133552.png"
+    />
+
+    <!-- Police écriture -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;1,400&family=Pixelify+Sans:wght@400;500;600;700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
+
+<!-- Corps HTML -->
 <body>
     <header>
-        <div class="container">
-            <h1>John Doe</h1>
-            <p>Développeur Web</p>
-        </div>
+        <nav class="navbar">
+
+            <!-- Logo pour la navbar -->
+            <img src="img/radioactive-icon-free-png.png" alt="logoRad" class="logo">
+            <div class="nav-links">
+
+                <!-- Liens pour se balader dans la page -->
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="me.html">Me</a></li>
+                <li><a href="skills.html">skills</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+            </div>
+
+            <!-- Image burger -->
+            <img src="img/burger.png" alt="menuburger" class="menuburger" >
+        </nav>
     </header>
     
-    <section id="about">
-        <div class="container">
-            <h2>À propos de moi</h2>
-            <p>Bonjour ! Je suis un développeur web passionné par la création de sites web innovants et conviviaux.</p>
-            <!-- Ajoutez plus d'informations sur vous ici -->
+    <!-- Section Home -->
+    <section id="base">
+        <div class="home">
+
+            <!-- Image du soldat -->
+            <div class="imageH">
+                <img  src="img/klipartz.com (4).png" alt="soldier" class="soldier"/>
+            </div>
+
+            <!-- Texte de présentation -->
+            <div class="texteH">
+
+                <!-- Titre -->
+                <p id="nom">LAMPS ELEON</p>
+
+                <!-- Texte -->
+                <p id="welcome">
+                Hello hello ... Hm ... My name is Eléon, i`m 25 years old.
+                I'm a team gamer who doesn't play alone. 
+                <br>
+                My world consists mainly of horror games, stories and movies.
+                <br>
+                Do you want to play with me ? 
+                </p>
+            </div>
         </div>
     </section>
     
+    <!-- section me -->
+    <section id="me">
+        <div class="l-container">  
+
+            <!-- carte 1 -->
+            <div class="b-game-card">  
+                <div class="b-game-card__cover" style="background-image: url(img/Léon.jpg);">
+                    <a href="https://www.amazon.fr/Capcom-Resident-Evil-2/dp/B07DPBWJB6/ref=sr_1_3?__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1Z19CVR38ASR2&keywords=resident%2Bevil%2B2&qid=1699117654&sprefix=resident%2Bevil%2B2%2Caps%2C79&sr=8-3&th=1">
+                        <div class="texteM">Favorite Game</div>
+                    </a>
+                </div>
+            </div>  
+
+            <!-- carte 2 -->
+            <div class="b-game-card">  
+                <div class="b-game-card__cover" style="background-image: url(img/it-9781501175466_hr.jpg);">
+                    <a href="https://www.amazon.fr/%C3%87a-Coffret-tomes-Stephen-King/dp/2253083364/ref=sr_1_2?crid=12GNF5CH8BEK3&keywords=it+stephen+king&qid=1699117957&sprefix=it+step%2Caps%2C88&sr=8-2">
+                        <div class="texteM">Favorite Book</div>
+                    </a>
+                </div>  
+            </div>
+
+            <!-- carte 3 -->
+            <div class="b-game-card">  
+                <div class="b-game-card__cover" style="background-image: url(img/fnaf-movies-red-eyes-are-far-from-silver-eyes-book-v0-rdpmba33db0b1.JPG);">
+                    <a href="https://www.allocine.fr/film/fichefilm_gen_cfilm=236844.html">
+                        <div class="texteM">Favorite Movie</div>
+                    </a>
+                </div>  
+            </div>  
+        </div> 
+    </section>
+
     <section id="skills">
-        <div class="container">
-            <h2>Compétences</h2>
-            <ul>
-                <li>HTML5</li>
-                <li>CSS3</li>
-                <li>JavaScript</li>
-                <!-- Ajoutez vos compétences ici -->
-            </ul>
+        <div class="skillu">
+
+            <li><h3>html</h3>
+                <span class="bar"><span class="html"></span></span>
+            </li>
+            <li><h3>css</h3>
+                <span class="bar"><span class="css"></span></span>
+            </li>
+            <li><h3>javascript</h3>
+                <span class="bar"><span class="javascript"></span></span>
+            </li>
+            <li><h3>php</h3>
+                <span class="bar"><span class="php"></span></span>
+            </li>
+            <li><h3>git</h3>
+                <span class="bar"><span class="git"></span></span>
+            </li>
+            <li><h3>figma</h3>
+                <span class="bar"><span class="figma"></span></span>
+            </li>
+            <li><h3>docker</h3>
+                <span class="bar"><span class="docker"></span></span>
+            </li>
+            <li><h3>Angular</h3>
+                <span class="bar"><span class="angular"></span></span>
+            </li>
+            <li><h3>SQL</h3>
+                <span class="bar"><span class="sql"></span></span>
+            </li>
         </div>
     </section>
     
     <section id="projects">
-        <div class="container">
-            <h2>Projets</h2>
-            <!-- Ajoutez des exemples de projets avec des liens vers le code source ou les démos -->
+        <div class="me projects">
+            <div class="l-container">  
+                <!-- carte 1 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/catan.jpg);">
+                        <div class="texteM">Board Games</div>
+                    </div>
+                </div>  
+                <!-- carte 2 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/th.jpg);">
+                        <div class="texteM">SharePad</div>
+                    </div>  
+                </div>  
+                <!-- carte 3 -->
+                <div class="b-game-card">  
+                    <div class="b-game-card__cover" style="background-image: url(img/NAUTILUS.png);">
+                        <div class="texteM">Stickers shop</div>
+                    </div>  
+                </div>  
+            </div> 
         </div>
     </section>
     
     <section id="contact">
-        <div class="container">
-            <h2>Contact</h2>
-            <p>N'hésitez pas à me contacter !</p>
-            <!-- Ajoutez un formulaire de contact ou des coordonnées -->
-        </div>
+        <footer>
+            <div class="container">
+            
+                <!-- Formulaire de contact -->
+                <form class="form" action="/action_page.php">
+                    <legend>Contact</legend>
+                    <label for="fname">Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Name">
+              
+                    <label for="sujet">Subject</label>
+                    <input type="text" id="sujet" name="subjet" placeholder="subject">
+              
+                    <label for="emailAddress">Email</label>
+                    <input id="emailAddress" type="email" name="email" placeholder="email">
+              
+              
+                    <label for="subject">Message</label>
+                    <textarea id="subject" name="subject" placeholder="texte" style="height:200px"></textarea>
+                       <input type="submit" value="send">
+        
+                    <!-- Réseaux sociaux -->    
+                </form>
+                <div class="social">
+        
+                        <a href="https://discord.gg/s4YEHqAk">
+                            <img class="L2" src="img/discord.png" alt="discord">
+                        </a>
+                        <a href="https://www.tiktok.com/@kratosdarkrad?_t=8h1MhiFpomW&_r=1">
+                            <img class="L2" src="img/tik-tok.png" alt="tik tok">
+                        </a>
+                        <a href="https://www.facebook.com/profile.php?id=100009537660651">
+                            <img class="L2" src="img/facebook.png" alt="facebook">
+                        </a>
+                    </div> 
+            </div>
+        </footer>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2023 John Doe - Développeur Web</p>
-        </div>
-    </footer>
+    
     <script src="script/script.js"></script>
 </body>
 </html>
